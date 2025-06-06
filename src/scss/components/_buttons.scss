@@ -14,13 +14,13 @@ $btn-close-white-filter: invert(1) grayscale(100%) brightness(200%) !default;
   --#{$prefix}btn-font-weight: var(--#{$prefix}font-weight-solid);
   --#{$prefix}btn-font-size: var(--#{$prefix}label-font-size);
   --#{$prefix}btn-line-height: var(--#{$prefix}font-line-height-3);
-  --#{$prefix}btn-text-color: var(--#{$prefix}btn-text-color, var(--#{$prefix}color-text-primary));
+  --#{$prefix}btn-text-color: var(--#{$prefix}btn-text-color-default, var(--#{$prefix}color-text-primary));
   --#{$prefix}btn-background: transparent; // default to transparent
   --#{$prefix}btn-border-size: 0; // default to 0
   --#{$prefix}btn-border-color: transparent;
   --#{$prefix}btn-border-radius: var(--#{$prefix}radius-smooth);
   --#{$prefix}btn-outline-border-size: 2px;
-  --#{$prefix}btn-outline-border-color: var(--#{$prefix}btn-outline-border-color,transparent);
+  --#{$prefix}btn-outline-border-color: var(--#{$prefix}btn-outline-border-color-default,transparent);
   --#{$prefix}btn-disabled-opacity: 0.5;
 }
 
